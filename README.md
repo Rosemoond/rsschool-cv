@@ -1,1 +1,1 @@
-#### https://rosemoond.github.io/rsschool-cv/cv 
+#### https://rosemoond.github.io/rsschool-cv/
