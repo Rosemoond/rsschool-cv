@@ -4,10 +4,6 @@ body {
     font-family: 'Poiret One', cursive;
     font-size: 16pt;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
 }
 h1 {
     font-family: 'Poiret One', cursive;
@@ -21,14 +17,17 @@ h2 {
     font-style: bold;
     padding: 10px 10px 10px 10px;
 }
-main {
+
+header {
+    position: fixed;
     width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content:flex-start;
+    border-top: solid 3px #000;
+    border-bottom: solid 3px #000;
+}
+
+main {
+    padding-top: 100px;
+    width: 60%;
 }
 li {
     padding: 10px 10px 10px 10px;
@@ -36,6 +35,7 @@ li {
 }
 
 img {
-    float: right;
+    float: left;
     width: 50%;
+    margin-right: 20px;
 }
